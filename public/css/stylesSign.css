@@ -1,0 +1,67 @@
+* {box-sizing: border-box;}
+* {box-sizing: border-box;}
+      body {font-family: Verdana, sans-serif; 
+           background:  #f8f8f8 ;
+           height: 720px;
+        
+          }
+
+          #BODY{
+            height: 720px;
+            width: 2000px; 
+            background-image: url('/image/111.jpg');
+            background-size: 1540px 720px;
+          
+
+          }
+      .contaner{
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          border-radius: 3%;
+          background-color: rgb(243, 236, 220);
+          margin-top: 10PX;
+          margin-left: 450PX;
+          font-family: Raleway;
+          width: 400px;
+          min-width: 300px;
+          padding-left: 10px;
+          padding-right: 10px;
+          padding-top: 5px;
+          
+      }
+      .save {
+          background-color: #d32a13; 
+          border: none;
+          color: white;
+          width: 20%;
+          padding: 10px 20px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer;
+          border-radius: 12px;
+      
+      }
+      #name , #tel , #mail , #num , #namecomp , #nameman , #field , #licensed{
+        border: 2px solid #d32a13;   
+        border-radius: 8px;
+        border-style: ridge;
+        font-family: Raleway;
+        width: 100%;
+        height: 30px;
+        min-width: 300px;
+      }
+ 
+ 
+      .LABEL{
+        margin-bottom: 1px;
+        color: black;
+        margin-left: 7px;
+      
+      }
+      #addEvent{
+        text-align-last: right;
+        border-color:  rgb(243, 236, 220);
+        border-radius: 3%;
+      }
